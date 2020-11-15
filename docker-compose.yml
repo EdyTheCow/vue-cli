@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  ui:
+    image: vue-cli
+    command: vue ui
+    volumes:
+      - .:/code
