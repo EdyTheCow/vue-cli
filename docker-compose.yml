@@ -1,9 +1,10 @@
-version: '3'
+version: '3.7'
 
 services:
 
   ui:
     image: vue-cli
+    network_mode: host
     command: vue ui
     volumes:
       - .:/code
